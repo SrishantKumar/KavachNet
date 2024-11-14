@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    
+    <!-- Outer Circle -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M60,0C26.86,0 0,26.86 0,60s26.86,60 60,60s60,-26.86 60,-60S93.14,0 60,0zM60,110c-27.57,0 -50,-22.43 -50,-50s22.43,-50 50,-50s50,22.43 50,50S87.57,110 60,110z"/>
+    
+    <!-- Lock Body -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M60,45c-8.28,0 -15,6.72 -15,15v10h30v-10C75,51.72 68.28,45 60,45zM65,60h-10v-5c0,-2.76 2.24,-5 5,-5s5,2.24 5,5V60z"/>
+    
+    <!-- Lock Base -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M75,70H45c-2.76,0 -5,2.24 -5,5v20c0,2.76 2.24,5 5,5h30c2.76,0 5,-2.24 5,-5V75C80,72.24 77.76,70 75,70zM65,85c0,2.76 -2.24,5 -5,5s-5,-2.24 -5,-5c0,-2.76 2.24,-5 5,-5S65,82.24 65,85z"/>
+</vector>
